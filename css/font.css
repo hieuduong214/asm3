@@ -1,0 +1,180 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+.cv-page {
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+  text-decoration: none;
+  margin: 0 auto;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+  background-color: #fff;
+  position: relative;
+  padding: 40px;
+  padding-top: 50px;
+}
+h1 {
+  font-weight: 400;
+  font-size: 30px;
+  font-weight: 300;
+  padding-bottom: 5px;
+}
+.hoten {
+  font-weight: 500;
+  font-size: 14px;
+}
+.flex {
+  display: flex;
+}
+.bolder {
+  font-weight: 500;
+}
+.italic {
+  font-style: italic;
+}
+
+/* navbar */
+.menu {
+  display: flex;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-left: 1px solid #dbe4ff;
+  padding: 20px;
+  height: 30px;
+  font-size: 12px;
+  align-items: center;
+  width: 140px;
+  justify-content: center;
+}
+.menu:last-child,
+.menu:nth-child(2) {
+  border-right: 1px solid #dbe4ff;
+}
+.menu:link,
+.menu:visited {
+  color: black;
+}
+nav {
+  text-transform: uppercase;
+}
+
+.navigation {
+  display: flex;
+  padding: 15px;
+  align-items: center;
+  align-content: center;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.icons {
+  height: 15px;
+  width: 15px;
+  color: #4c6ef5;
+}
+
+/* Section */
+
+.section-title {
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+.section-content {
+  padding-bottom: 10px;
+  font-weight: 400;
+  line-height: 2;
+}
+
+.year {
+  display: flex;
+  align-items: center;
+  font-weight: bolder;
+  color: #fff;
+  font-size: 8px;
+  background-color: #4c6ef5;
+  padding: 2px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 20px 20px 20px 20px;
+}
+
+a:link {
+  color: red;
+}
+a:hover {
+  color: green;
+}
+a:visited {
+  color: aqua;
+}
+a:active {
+  color: chocolate;
+}
+
+nav {
+  display: inline-block;
+}
+
+h3 .section-title {
+  padding-left: 0;
+}
+
+/* Liên hệ */
+/* Thông tin liên hệ */
+.lienhe {
+  display: flex;
+  justify-content: center;
+  padding-top: 25px;
+  gap: 50px;
+}
+.fb:link,
+.fb:visited {
+  color: black;
+}
+
+.fb {
+  font-size: 18px;
+  color: black;
+  cursor: pointer;
+  text-decoration: none;
+}
+.section3 {
+  background-color: #e9ecef;
+  height: 100px;
+  margin-top: 50px;
+}
+
+.flexlienhe {
+  display: flex;
+  gap: 5px;
+}
+
+/* Phần header chứa ảnh */
+header {
+  display: flex;
+  align-content: center;
+  background-image: linear-gradient(rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.6)),
+    url(../img/banner.jpg);
+  background-size: cover;
+  height: 350px;
+  position: relative;
+  font-size: 12px;
+  font-weight: 100;
+  font-weight: 300;
+  margin: 0 auto;
+}
+
+.timeline {
+  color: white;
+  background-color: grey;
+  border-radius: 50%;
+  outline: 2px solid black;
+}
